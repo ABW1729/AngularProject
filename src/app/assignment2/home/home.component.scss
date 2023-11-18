@@ -1,0 +1,129 @@
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .navigation-button {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .navigation-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Container for country list items */
+  .country-item {
+    margin-bottom: 0px;
+    padding: 0px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden; /* Ensure proper containment of child elements */
+  }
+  
+  /* Name and image container */
+  .country-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Country name style */
+  h2 {
+    margin-bottom: 0;
+  }
+  
+  /* Image style */
+  img {
+    max-width: 10%;
+    height: auto;
+    margin-left: 10px; /* Add some space between the name and the image */
+  }
+  /* Add this to your CSS file */
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .navigation-button {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+ 
+  }
+  
+  .navigation-button:hover {
+    background-color: #0056b3;
+    
+  }
+  
+  /* Container for country list items */
+  .country-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden; /* Ensure proper containment of child elements */
+  }
+  
+  /* Name and image container */
+  .country-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Country name style */
+  h2 {
+    margin-bottom: 0;
+  }
+  
+  /* Image style */
+  img {
+    max-width: 10%;
+    height: auto;
+    margin-left: auto; /* Align the image to the right */
+    display: block; /* Ensure proper spacing */
+  }
+ 
+  
+  .left-section {
+    max-width: 60%;
+  }
+  
+  .right-section img {
+    border-radius: 50%;
+  }
+  
+  .search-container {
+  margin-left:43%;
+  border:20px;
+  margin-bottom:15px;
+  border-radius:15px;/* Add spacing between search box and countries list */
+}
+
+.info{
+  text-align:center;
+  margin-bottom:15px;
+  border-radius:15px;
+  }
+
+.countries-list-title {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  padding: 10px;
+}
+
+  

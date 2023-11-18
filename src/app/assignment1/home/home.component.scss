@@ -1,0 +1,53 @@
+/* assignment1-home.component.css */
+
+
+  .navigation-button {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+ 
+  }
+  
+  .navigation-button:hover {
+    background-color: #0056b3;
+    
+  }
+
+.header {
+  text-decoration: underline;
+  margin:20px;
+}
+
+
+.buttons-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust the minmax values as needed */
+  gap: 10px; /* Adjust the gap between buttons */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Adjust padding for better spacing */
+.question-button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.question-button:hover {
+  background-color: #2980b9;
+}
+
+
+

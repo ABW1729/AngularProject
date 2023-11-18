@@ -1,0 +1,37 @@
+.authBlock{
+border:5px solid #000;
+border-radius:15px;
+}
+body {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .details {
+      width: 40%; /* Adjust the width as needed */
+      padding: 20px;
+      box-sizing: border-box;
+       font-family: "Roboto", sans-serif;
+    }
+  .details-inner h2 {
+      text-decoration: underline;
+      font-style: italic;
+    }
+   
+    .displayTable {
+      width: 45%; /* Adjust the width as needed */
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .authBlock {
+      border: 1px solid #000;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+.redirectToLogin,.redirect{
+color:#000;
+}

@@ -1,0 +1,25 @@
+<div class="container">
+<div class="info">
+
+  <a class="nav-link" [routerLink]="['/dashboard']"  class="navigation-button">
+    Home
+  </a>
+  <a class="nav-link" (click)="authService.SignOut()">
+              <i class="fas fa-sign-out-alt"></i>Log out
+            </a>
+</div>
+
+  <h2 class="header">Assignment1 Home</h2>
+  <div class="buttons-container">
+    <button class="question-button" (click)="navigateToQuestion(1)">Q1</button>
+    <button class="question-button" (click)="navigateToQuestion(2)">Q2</button>
+    <button class="question-button" (click)="navigateToQuestion(3)">Q3</button>
+    <button class="question-button" (click)="navigateToQuestion(4)">Q4</button>
+    <button class="question-button" (click)="navigateToQuestion(5)">Q5</button>
+    <button class="question-button" (click)="navigateToQuestion(6)">Q6</button>
+    <button class="question-button" (click)="navigateToQuestion(7)">Q7</button>
+    <button class="question-button" (click)="navigateToQuestion(8)">Q8</button>
+    <button class="question-button" (click)="navigateToQuestion(9)">Q9</button>
+  </div>
+</div>
+

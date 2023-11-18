@@ -1,0 +1,28 @@
+<div class="info">
+  <a class="nav-link" [routerLink]="['/dashboard']"  class="navigation-button">
+    Home
+  </a>
+</div>
+
+  <h2 class="countries-list-title"><strong>Countries List</strong></h2>
+  <a class="nav-link" (click)="authService.SignOut()">
+              <i class="fas fa-sign-out-alt"></i>Log out
+            </a>
+
+<div class="countries-container">
+  <div class="search-container">
+    <input type="text" (input)="searchCountryByName()" [(ngModel)]="searchText" placeholder="Search country by name" />
+  </div>
+
+ <div class="countries-list">
+  <div *ngFor="let c of displayCountries" class="country-item">
+
+    <div class="country-details">
+    
+      <h3>{{ c.name.official }} </h3>
+  
+      <img [src]="c.flags.png" alt="" />
+    </div>
+  </div>
+  </div>
+</div>
